@@ -1,22 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GradationBtn msg="sample" url="#" :color="''" :fontSize="''" :padding="''" :bgGradation="''" :borderColor="''"/>
+    <LineAnimation msg="lineAnimation" url="#" :bgGradation="''" :borderColor="''"/>
+    <LineAnimation02 msg="lineAnimation02" url="#"/>
+    <LineAnimation03 msg="副産物" url="#"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GradationBtn from './components/gradation_btn.vue'
+import LineAnimation from './components/lineanimation_btn.vue'
+import LineAnimation02 from './components/LineAnimation02.vue'
+import LineAnimation03 from './components/LineAnimation03.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    GradationBtn,
+    LineAnimation,
+    LineAnimation02,
+    LineAnimation03
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
