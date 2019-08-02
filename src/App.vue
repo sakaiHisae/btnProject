@@ -4,6 +4,7 @@
     <LineAnimation msg="lineAnimation" url="#" :bgGradation="''" :borderColor="''"/>
     <LineAnimation02 msg="lineAnimation02" url="#"/>
     <LineAnimation03 msg="副産物" url="#"/>
+    <LineAnimation04 msg="test" url="#"/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import GradationBtn from './components/gradation_btn.vue'
 import LineAnimation from './components/lineanimation_btn.vue'
 import LineAnimation02 from './components/LineAnimation02.vue'
 import LineAnimation03 from './components/LineAnimation03.vue'
+import LineAnimation04 from './components/LineAnimation04.vue'
 
 export default {
   name: 'app',
@@ -19,7 +21,8 @@ export default {
     GradationBtn,
     LineAnimation,
     LineAnimation02,
-    LineAnimation03
+    LineAnimation03,
+    LineAnimation04
   }
 }
 </script>
