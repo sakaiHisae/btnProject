@@ -27,8 +27,8 @@ msg="" : ボタンのテキスト　　　url="" : リンク先
 ```html
 <LineAnimation00 :borderColor="'#fff'"/>
 ```
-外枠の色指定。
-
+外枠の色指定。  
+<br>
 ```html
 <LineAnimation00 bgGradation="'linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%)'"/>
 ```
