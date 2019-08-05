@@ -8,34 +8,28 @@ btn_project/src/componentsの中にあるvueファイルから
 使用したいボタンを個人のプロジェクトに追加してください。
 
 ### ボタン機能
-```
+```html
 <LineAnimation00 msg="lineAnimation00" url="#"/>
 ```
 msg="" : ボタンのテキスト　　　url="" : リンク先  
 
 ### オプション
-```
+```html
 <LineAnimation00 :fontSize="'12px'"/>
 ```
-：ボタンのフォントサイズの指定。
+ボタンのフォントサイズの指定。
 
-```
+```html
 <LineAnimation00 :Color="'#000'"/>
 ```
-：ボタンの文字色の指定。
+ボタンの文字色の指定。
 
-```
+```html
 <LineAnimation00 :borderColor="'#fff'"/>
 ```
-：外枠の色指定。
+外枠の色指定。
 
-```
+```html
 <LineAnimation00 bgGradation="'linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%)'"/>
 ```
-：背景グラデーションの色指定。
-
-
-
-------------------------------------
-********
-________
+背景グラデーションの色指定。
