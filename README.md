@@ -1,7 +1,7 @@
 # btn_project
 枠がホバーアニメーションするグラデーションボタンです。  
 
-### [DEMO](https://sakaihisae.github.io/btn_project/)  
+### [DEMO](https://sakaihisae.github.io/btn_project/)
 <br>  
 ### 導入方法
 btn_project/src/componentsの中にあるvueファイルから  
