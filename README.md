@@ -1,7 +1,7 @@
 # btn_project
 枠がホバーアニメーションするグラデーションボタンです。  
 
-### [demo](https://sakaihisae.github.io/btn_project/)
+### [DEMO](https://sakaihisae.github.io/btn_project/)
 
 ### 導入方法
 btn_project/src/componentsの中にあるvueファイルから  
@@ -19,25 +19,21 @@ msg="" : ボタンのテキスト　　　url="" : リンク先
 ```
 ：ボタンのフォントサイズの指定。
 
-<br>
 ```
 <LineAnimation00 :Color="'#000'"/>
 ```
 ：ボタンの文字色の指定。
 
-<br>
 ```
 <LineAnimation00 :borderColor="'#fff'"/>
 ```
 ：外枠の色指定。
 
-<br>
 ```
 <LineAnimation00 bgGradation="'linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%)'"/>
 ```
 ：背景グラデーションの色指定。
 
-<br>
 
 
 ------------------------------------
