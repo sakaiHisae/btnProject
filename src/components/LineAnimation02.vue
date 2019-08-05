@@ -22,11 +22,8 @@ export default {
     msg: String,
     url: String,
     color: String,
-    padding: String,
     bgGradation: String,
     fontSize: String,
-
-    borderPadding: String,
     borderColor: String
   },
   computed: {
@@ -59,7 +56,7 @@ export default {
   justify-content: center;
   margin-bottom: 50px;
 
-  --borderColor: #a0aef2;
+  --borderColor: #d4b1cf;
   $border-Color: var(--borderColor);
 
   .second_side,
@@ -190,8 +187,7 @@ export default {
 
         .side_line {
           margin: 0;
-          --borderPadding: 27px 7px;
-          padding: var(--borderPadding);
+          padding: 27px 7px;
 
           &:after,
           &:before {
@@ -231,11 +227,10 @@ export default {
           a {
             --fontSize: 15px;
             font-size: var(--fontSize);
-            --padding: 20px 50px;
-            padding: var(--padding);
+            padding: 20px 50px;
             --color: #fff;
             color: var(--color);
-            --bgGradation: linear-gradient(45deg, #78a7c2 10%,#75a1e2 40%, #a897e4 85%);
+            --bgGradation: linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%);
             background: var(--bgGradation);
             background-size: 600% 600%;
             text-decoration: none;

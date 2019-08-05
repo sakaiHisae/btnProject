@@ -15,11 +15,8 @@ export default {
     msg: String,
     url: String,
     color: String,
-    padding: String,
     bgGradation: String,
     fontSize: String,
-
-    borderPadding: String,
     borderColor: String
   },
   computed: {
@@ -57,8 +54,7 @@ export default {
     position: relative;
     margin: 0;
     border: 1px solid $border-Color;
-    --borderPadding: 25px 5px;
-    padding: var(--borderPadding);
+    padding: 25px 5px;
 
     &:after,
     &:before {
@@ -90,8 +86,7 @@ export default {
     a {
       --fontSize: 15px;
       font-size: var(--fontSize);
-      --padding: 20px 50px;
-      padding: var(--padding);
+      padding: 20px 50px;
       --color: #fff;
       color: var(--color);
       --bgGradation: linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%);
