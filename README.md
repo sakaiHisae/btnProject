@@ -1,49 +1,45 @@
 # btn_project
-DAIのアニメーション付きボタンです。  
+枠がホバーアニメーションするグラデーションボタンです。  
 
-## Usage
+### [demo](https://sakaihisae.github.io/btn_project/)
+
+### 導入方法
+btn_project/src/componentsの中にあるvueファイルから  
+使用したいボタンを個人のプロジェクトに追加してください。
+
+### ボタン機能
 ```
-??????????
+<LineAnimation00 msg="lineAnimation00" url="#"/>
 ```
-ああああああああああああああ  
-*ここがemタグで強調されます*  
-_ここがemタグで強調されます_  
-**ここがstrongタグで強調されます**  
-__ここがstrongタグで強調されます__  
-**ここがstrongタグで強調されます***  
-改行スペースふたつ
+msg="" : ボタンのテキスト　　　url="" : リンク先  
 
->aaaaaa引用
+### オプション
+```
+<LineAnimation00 :fontSize="'12px'"/>
+```
+：ボタンのフォントサイズの指定。
 
-[リンク]()
+<br>
+```
+<LineAnimation00 :Color="'#000'"/>
+```
+：ボタンの文字色の指定。
+
+<br>
+```
+<LineAnimation00 :borderColor="'#fff'"/>
+```
+：外枠の色指定。
+
+<br>
+```
+<LineAnimation00 bgGradation="'linear-gradient(45deg, #8cced2 5%,#c09cdd 45%, #ecbeca 95%)'"/>
+```
+：背景グラデーションの色指定。
+
+<br>
+
 
 ------------------------------------
 ********
 ________
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
