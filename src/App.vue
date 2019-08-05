@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <LineAnimation00 msg="lineAnimation00" url="#" :color="''" :fontSize="''" :padding="''" :bgGradation="''" :borderColor="''"/>
-    <LineAnimation01 msg="lineAnimation01" url="#" :bgGradation="''" :borderColor="''"/>
+    <LineAnimation00 msg="lineAnimation00" url="#"/>
+    <LineAnimation01 msg="lineAnimation01" url="#"/>
     <LineAnimation02 msg="lineAnimation02" url="#"/>
     <LineAnimation03 msg="lineAnimation03" url="#"/>
     <LineAnimation04 msg="lineAnimation04" url="#"/>
