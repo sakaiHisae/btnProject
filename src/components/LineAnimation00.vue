@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'GradationBtn',
+  name: 'LineAnimation00',
   props: {
     msg: String,
     url: String,
