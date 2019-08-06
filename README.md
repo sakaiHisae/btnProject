@@ -11,18 +11,18 @@ btn_project/src/componentsの中にあるvueファイルから
 ```html
 <LineAnimation00 msg="lineAnimation00" url="#"/>
 ```
-ボタンのテキストを指定。　　　ボタンのリンク先を指定。  
+テキストを指定。　　　リンク先を指定。  
 <br>
 ### オプション
 ```html
 <LineAnimation00 :fontSize="'12px'"/>
 ```
-ボタンのフォントサイズの指定。  
+フォントサイズの指定。  
 <br>
 ```html
 <LineAnimation00 :Color="'#000'"/>
 ```
-ボタンの文字色の指定。  
+文字色の指定。  
 <br>
 ```html
 <LineAnimation00 :borderColor="'#fff'"/>
