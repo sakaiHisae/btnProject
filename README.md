@@ -4,8 +4,8 @@
 ### [DEMO](https://sakaihisae.github.io/btn_project/)
 
 ### 導入方法
-btn_project/src/componentsの中にあるvueファイルから  
-使用したいボタンを個人のプロジェクトに追加してください。  
+btn_project/src/componentsフォルダの中にあるvueファイルから  
+使用したいボタンを個人のcomponentsフォルダに追加して使用してください。  
 <br>
 ### ボタン機能
 ```html
