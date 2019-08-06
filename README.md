@@ -11,7 +11,7 @@ btn_project/src/componentsの中にあるvueファイルから
 ```html
 <LineAnimation00 msg="lineAnimation00" url="#"/>
 ```
-msg="" : ボタンのテキスト　　　url="" : リンク先  
+ボタンのテキストを指定。　　　ボタンのリンク先を指定。  
 <br>
 ### オプション
 ```html
